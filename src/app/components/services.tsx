@@ -42,7 +42,7 @@ export default function Services() {
             className="relative border border-blue-300 overflow-hidden rounded-lg shadow-lg"
           >
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-blue-950 opacity-50"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-800 to-blue-950 opacity-30"></div>
 
             {/* Content */}
             <CardContent className="relative p-6 flex flex-col items-center text-center">

@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden py-10 sm:py-20 pl-6 md:pl-0 pr-6 border border-blue-300 rounded-2xl">
-      <div className="absolute rounded-2xl inset-0 bg-gradient-to-br from-blue-900 to-blue-950 opacity-50"></div>
+      <div className="absolute rounded-2xl inset-0 bg-gradient-to-br from-blue-800 to-blue-950 opacity-30"></div>
       <div className="relative flex flex-col-reverse md:flex-row-reverse items-center justify-between max-w-6xl mx-auto">
         <div className="md:w-2/3 mt-6 md:mt-0 text-center md:text-left">
           <h1 className="text-5xl font-bold mb-4 leading-tight text-blue-200">
