@@ -60,17 +60,17 @@ export default function ContactMe() {
   };
 
   return (
-    <section id="contact-section" className="relative overflow-hidden py-10">
+    <section id="contact-section" className="relative overflow-hidden ">
       {/* Background Layer */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-blue-950 opacity-70 rounded-2xl"></div>
 
       {/* Content Layer */}
-      <div className="relative grid md:grid-cols-2 gap-8 max-w-6xl mx-auto p-8">
+      <div className="relative grid md:grid-cols-2 gap-8 max-w-6xl mx-auto p-4 py-10 sm:p-8">
         <div className="flex flex-col justify-center text-center">
           <h2 className="text-3xl font-bold mb-6 text-center text-white">
             Kontakt meg
           </h2>
-          <div className="flex flex-col lg:flex-row gap-4 justify-center items-center text-gray-300 text-sm">
+          <div className="flex flex-col lg:flex-row gap-2 sm:gap-4 justify-center items-center text-gray-300 text-sm">
             <div className="flex items-center">
               <Mail className="mr-2 h-5 w-5 text-purple-500" />
               <a
@@ -86,12 +86,12 @@ export default function ContactMe() {
               <span>+47 906 36 538</span>
             </div>
           </div>
-          <p className="mb-4 text-gray-300 pt-6">
+          <p className="mb-4 text-sm sm:text-base text-gray-300 pt-6">
             Jeg er alltid interessert i nye prosjekter og utfordringer. Ta
             gjerne kontakt for en uforpliktende prat om hvordan jeg kan hjelpe
             deg med å skape en flott nettside for deg eller din bedrift.
           </p>
-          <p className="text-gray-300">
+          <p className="text-sm sm:text-base text-gray-300">
             Fyll ut kontaktskjemaet eller kontakt meg direkte på telefon eller
             e-post!
           </p>
