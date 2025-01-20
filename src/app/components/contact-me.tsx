@@ -60,8 +60,12 @@ export default function ContactMe() {
   };
 
   return (
-    <section id="contact-section">
-      <div className="grid md:grid-cols-2 gap-8 bg-gradient-to-br from-purple-950 to-blue-950 rounded-2xl p-8">
+    <section id="contact-section" className="relative overflow-hidden py-10">
+      {/* Background Layer */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-blue-950 opacity-70 rounded-2xl"></div>
+
+      {/* Content Layer */}
+      <div className="relative grid md:grid-cols-2 gap-8 max-w-6xl mx-auto p-8">
         <div className="flex flex-col justify-center text-center">
           <h2 className="text-3xl font-bold mb-6 text-center text-white">
             Kontakt meg
@@ -133,6 +137,7 @@ export default function ContactMe() {
               name="email"
               render={({ field }) => (
                 <Input
+                  required
                   {...field}
                   placeholder="E-post"
                   type="email"

@@ -28,19 +28,28 @@ const services = [
 export default function Services() {
   return (
     <section>
-      <div className="flex items-center mb-8  text-purple-500 space-x-4">
+      {/* Header */}
+      <div className="flex items-center mb-8 text-purple-500 space-x-4">
         <CheckCircle className="w-8 h-8" />
         <h2 className="text-3xl font-bold">Hva jeg kan tilby</h2>
       </div>
+
+      {/* Services Grid */}
       <div className="grid gap-4 md:gap-8 md:grid-cols-2 lg:grid-cols-4">
         {services.map((service, index) => (
           <Card
             key={index}
-            className="bg-gradient-to-br from-purple-950 to-blue-950 opacity-100"
+            className="relative overflow-hidden rounded-lg shadow-lg"
           >
-            <CardContent className="p-6 flex flex-col items-center text-center">
+            {/* Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-blue-950 opacity-70"></div>
+
+            {/* Content */}
+            <CardContent className="relative p-6 flex flex-col items-center text-center">
               <service.icon className="w-12 h-12 mb-4 text-purple-500" />
-              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-white">
+                {service.title}
+              </h3>
               <p className="text-gray-200 text-sm">{service.description}</p>
             </CardContent>
           </Card>
