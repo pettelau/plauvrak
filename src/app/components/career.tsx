@@ -4,7 +4,7 @@ export default function Career() {
   return (
     <section>
       <div className="mb-10">
-        <div className="flex items-center text-purple-500 space-x-4">
+        <div className="flex items-center text-blue-300 space-x-4">
           <GraduationCap className="w-8 h-8" />
           <h2 className="text-3xl font-bold">Litt om meg</h2>
         </div>
@@ -16,7 +16,7 @@ export default function Career() {
       <div className="space-y-8 max-w-4xl mx-auto">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
-            <GraduationCap className="w-10 h-10 text-purple-500" />
+            <GraduationCap className="w-10 h-10 text-blue-300" />
           </div>
           <div>
             <h3 className="text-xl font-semibold text-white">
@@ -33,7 +33,7 @@ export default function Career() {
 
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
-            <GraduationCap className="w-10 h-10 text-purple-500" />
+            <GraduationCap className="w-10 h-10 text-blue-300" />
           </div>
           <div>
             <h3 className="text-xl font-semibold text-white">
@@ -49,7 +49,7 @@ export default function Career() {
 
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
-            <Briefcase className="w-10 h-10 text-purple-500" />
+            <Briefcase className="w-10 h-10 text-blue-300" />
           </div>
           <div>
             <h3 className="text-xl font-semibold text-white">

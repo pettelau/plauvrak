@@ -29,7 +29,7 @@ export default function Services() {
   return (
     <section>
       {/* Header */}
-      <div className="flex items-center mb-8 text-purple-500 space-x-4">
+      <div className="flex items-center mb-8 text-blue-300 space-x-4">
         <CheckCircle className="w-8 h-8" />
         <h2 className="text-3xl font-bold">Hva jeg kan tilby</h2>
       </div>
@@ -39,14 +39,14 @@ export default function Services() {
         {services.map((service, index) => (
           <Card
             key={index}
-            className="relative overflow-hidden rounded-lg shadow-lg"
+            className="relative border border-blue-300 overflow-hidden rounded-lg shadow-lg"
           >
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-blue-950 opacity-70"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-blue-950 opacity-50"></div>
 
             {/* Content */}
             <CardContent className="relative p-6 flex flex-col items-center text-center">
-              <service.icon className="w-12 h-12 mb-4 text-purple-500" />
+              <service.icon className="w-12 h-12 mb-4 text-blue-300" />
               <h3 className="text-xl font-semibold mb-2 text-white">
                 {service.title}
               </h3>
