@@ -56,10 +56,25 @@ export default function Career() {
               Softwareutvikler hos twoday
             </h3>
             <p className="text-gray-400">
-              Jobber som programvareutvikler hos konsulentselskapet twoday, med
+              Programvareutvikler hos konsulentselskapet twoday, med
               hovedfokus på frontend webutvikling.
             </p>
-            <p className="text-gray-500 text-sm mt-1">2024 - Nå</p>
+            <p className="text-gray-500 text-sm mt-1">2024 - 2025</p>
+          </div>
+        </div>
+
+          <div className="flex items-start space-x-4">
+          <div className="flex-shrink-0">
+            <Briefcase className="w-10 h-10 text-blue-300" />
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold text-white">
+              Lead developer i Hyyr
+            </h3>
+            <p className="text-gray-400">
+              Jobber som fullstack-utvikler og potet i startup-selskapet Hyyr - hvor vi lager fremtidens anbudsverktøy ved å effektivisere og forenkle hele prosessen for alle involverte parter!
+            </p>
+            <p className="text-gray-500 text-sm mt-1">2025 - Nå</p>
           </div>
         </div>
       </div>
