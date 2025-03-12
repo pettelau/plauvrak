@@ -72,7 +72,7 @@ export default function Career() {
               Lead developer i Hyyr
             </h3>
             <p className="text-gray-400">
-              Jobber som fullstack-utvikler og potet i startup-selskapet Hyyr - hvor vi lager fremtidens anbudsverktøy ved å effektivisere og forenkle hele prosessen for alle involverte parter!
+              Jobber som fullstack-utvikler i startup-selskapet Hyyr - hvor vi lager fremtidens anbudsverktøy ved å effektivisere og forenkle hele prosessen for alle involverte parter!
             </p>
             <p className="text-gray-500 text-sm mt-1">2025 - Nå</p>
           </div>
